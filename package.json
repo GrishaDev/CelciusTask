@@ -1,0 +1,19 @@
+{
+  "name": "celciustask",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js"
+  },
+  "author": "Grisha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "env-var": "^7.0.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0"
+  }
+}
