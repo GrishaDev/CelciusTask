@@ -27,8 +27,6 @@ const isValidQuery = (req, res, next) => {
     return next(); 
 }
 
-
-
 const sendError = (err) => {
     let msg = err.details[0].message;
     msg = msg.replace(/"/g, '');

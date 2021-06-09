@@ -1,5 +1,4 @@
 const coinApiPrice = require('../coinApi');
-
 class Controller {
     static async getCoinPrice(req, res) {
         const { coin } = req.params;
